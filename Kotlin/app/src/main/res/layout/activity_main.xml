@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/i_would_like_to_do_something_similar_to_the_https_twitter_com_app"
+        android:textSize="32sp"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>
